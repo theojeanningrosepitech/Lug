@@ -1,9 +1,9 @@
 
 import React, {useState} from 'react';
-import { TouchableOpacity, Image, StyleSheet, Text, View, Button } from 'react-native';
+import { TouchableOpacity, Image, StyleSheet, Text, View, Button} from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import { userConnected, setSpotifyToken } from '../redux/user';
-
+import * as Linking from 'expo-linking';
 
 import * as WebBrowser from 'expo-web-browser';
 import { makeRedirectUri, useAuthRequest, ResponseType } from 'expo-auth-session';
@@ -19,6 +19,7 @@ const ConnectService = ({ navigation }) => {
   const storeToken = useSelector((state) => state.user.spotify_token);
   const dispatch = useDispatch();
  ///TODO: FIX URI Redirection
+ //const prefix = Linking.createURL('/spotifypage');
 
   const [request, response, promptAsync] = useAuthRequest(
     {
@@ -31,12 +32,14 @@ const ConnectService = ({ navigation }) => {
       // redirectUri: makeRedirectUri({
       //   scheme: 'jukehome.app://callback'
       //   }),
-//      redirectUri: makeRedirectUri({ scheme: 'com.jukehome' }) == null ? makeRedirectUri({ scheme: 'com.jukehome' }) : "http://localhost:19006/callback/"
-      redirectUri: makeRedirectUri({ native: 'com.jukehome://callback' })
+      redirectUri: makeRedirectUri({ scheme: 'com.jukehome' }) == null ? makeRedirectUri({ scheme: 'com.jukehome' }) : "https://theojeanningrosepitech.github.io/lug/"
+      //redirectUri: makeRedirectUri({ native: Linking.getInitialURL })
   
     },
     discovery
   );
+  //console.log("prefix", {prefix});
+
   async function getTrack() {
     // const token = JSON.parse(localStorage.getItem('token'));
     const token = JSON.parse(storeToken);
@@ -51,8 +54,8 @@ const ConnectService = ({ navigation }) => {
   }
 
   React.useEffect(() => {
+    console.log("response ======== ", response);
     if (response?.type === 'success') {
-      console.log(response.url);
       console.log("request  "  +request.url);
       console.log("request  "  +request.codeChallenge);
       const { access_token } = response.params;

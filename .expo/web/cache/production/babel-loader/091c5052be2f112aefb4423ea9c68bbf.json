@@ -1,0 +1,1 @@
+{"ast":null,"code":"import AppLoading from\"./AppLoading\";export default AppLoading;","map":{"version":3,"sources":["../src/index.ts"],"names":[],"mappings":"AAAA,MAAO,CAAA,UAAP,oBAEA,cAAe,CAAA,UAAf","sourcesContent":["import AppLoading from './AppLoading';\n\nexport default AppLoading;\n"],"sourceRoot":""},"metadata":{},"sourceType":"module"}
