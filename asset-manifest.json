@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/lug/static/js/app.25c8a60d.chunk.js",
-    "app.js.map": "/lug/static/js/app.25c8a60d.chunk.js.map",
+    "app.js": "/lug/static/js/app.e7a88809.chunk.js",
+    "app.js.map": "/lug/static/js/app.e7a88809.chunk.js.map",
     "runtime~app.js": "/lug/static/js/runtime~app.2bdf65aa.js",
     "runtime~app.js.map": "/lug/static/js/runtime~app.2bdf65aa.js.map",
-    "static/js/2.4ee540a4.chunk.js": "/lug/static/js/2.4ee540a4.chunk.js",
-    "static/js/2.4ee540a4.chunk.js.map": "/lug/static/js/2.4ee540a4.chunk.js.map",
+    "static/js/2.28645b2f.chunk.js": "/lug/static/js/2.28645b2f.chunk.js",
+    "static/js/2.28645b2f.chunk.js.map": "/lug/static/js/2.28645b2f.chunk.js.map",
     "fonts/AntDesign.ttf": "/lug/./fonts/AntDesign.ttf",
     "fonts/CarterOne_400Regular.ttf": "/lug/./fonts/CarterOne_400Regular.ttf",
     "fonts/Entypo.ttf": "/lug/./fonts/Entypo.ttf",
@@ -37,7 +37,7 @@
     "index.html": "/lug/index.html",
     "manifest.json": "/lug/manifest.json",
     "serve.json": "/lug/serve.json",
-    "static/js/2.4ee540a4.chunk.js.LICENSE.txt": "/lug/static/js/2.4ee540a4.chunk.js.LICENSE.txt",
+    "static/js/2.28645b2f.chunk.js.LICENSE.txt": "/lug/static/js/2.28645b2f.chunk.js.LICENSE.txt",
     "static/media/Logo_Lug.png": "/lug/static/media/Logo_Lug.cfa9fc81.png",
     "static/media/basicWhiteGirl.jpg": "/lug/static/media/basicWhiteGirl.5c4f651f.jpg",
     "static/media/deezer.jpg": "/lug/static/media/deezer.41f50670.jpg",
@@ -54,7 +54,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.2bdf65aa.js",
-    "static/js/2.4ee540a4.chunk.js",
-    "static/js/app.25c8a60d.chunk.js"
+    "static/js/2.28645b2f.chunk.js",
+    "static/js/app.e7a88809.chunk.js"
   ]
 }
