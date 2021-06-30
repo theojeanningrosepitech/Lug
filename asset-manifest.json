@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/lug/static/js/app.552176ca.chunk.js",
-    "app.js.map": "/lug/static/js/app.552176ca.chunk.js.map",
+    "app.js": "/lug/static/js/app.8c317db5.chunk.js",
+    "app.js.map": "/lug/static/js/app.8c317db5.chunk.js.map",
     "runtime~app.js": "/lug/static/js/runtime~app.2bdf65aa.js",
     "runtime~app.js.map": "/lug/static/js/runtime~app.2bdf65aa.js.map",
-    "static/js/2.28645b2f.chunk.js": "/lug/static/js/2.28645b2f.chunk.js",
-    "static/js/2.28645b2f.chunk.js.map": "/lug/static/js/2.28645b2f.chunk.js.map",
+    "static/js/2.c80f6ab1.chunk.js": "/lug/static/js/2.c80f6ab1.chunk.js",
+    "static/js/2.c80f6ab1.chunk.js.map": "/lug/static/js/2.c80f6ab1.chunk.js.map",
     "fonts/AntDesign.ttf": "/lug/./fonts/AntDesign.ttf",
     "fonts/CarterOne_400Regular.ttf": "/lug/./fonts/CarterOne_400Regular.ttf",
     "fonts/Entypo.ttf": "/lug/./fonts/Entypo.ttf",
@@ -37,10 +37,9 @@
     "index.html": "/lug/index.html",
     "manifest.json": "/lug/manifest.json",
     "serve.json": "/lug/serve.json",
-    "static/js/2.28645b2f.chunk.js.LICENSE.txt": "/lug/static/js/2.28645b2f.chunk.js.LICENSE.txt",
+    "static/js/2.c80f6ab1.chunk.js.LICENSE.txt": "/lug/static/js/2.c80f6ab1.chunk.js.LICENSE.txt",
     "static/media/Logo_Lug.png": "/lug/static/media/Logo_Lug.cfa9fc81.png",
     "static/media/basicWhiteGirl.jpg": "/lug/static/media/basicWhiteGirl.5c4f651f.jpg",
-    "static/media/deezer.jpg": "/lug/static/media/deezer.41f50670.jpg",
     "static/media/déchirure 1.png": "/lug/static/media/déchirure 1.b3e073e7.png",
     "static/media/déchirure 2.png": "/lug/static/media/déchirure 2.48ebe111.png",
     "static/media/déchirure 3.png": "/lug/static/media/déchirure 3.61696c56.png",
@@ -49,12 +48,11 @@
     "static/media/déchirure 8.png": "/lug/static/media/déchirure 8.038a63dc.png",
     "static/media/headphone.png": "/lug/static/media/headphone.ec02695c.png",
     "static/media/playlistSoiree.png": "/lug/static/media/playlistSoiree.1e60d8ba.png",
-    "static/media/spotify.jpg": "/lug/static/media/spotify.349c042b.jpg",
     "static/media/spotifyBlanc.png": "/lug/static/media/spotifyBlanc.7324338a.png"
   },
   "entrypoints": [
     "static/js/runtime~app.2bdf65aa.js",
-    "static/js/2.28645b2f.chunk.js",
-    "static/js/app.552176ca.chunk.js"
+    "static/js/2.c80f6ab1.chunk.js",
+    "static/js/app.8c317db5.chunk.js"
   ]
 }
